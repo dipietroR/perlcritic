@@ -15,7 +15,5 @@ jobs:
 
     - name: "Run Perl::Critic" 
       uses: Difegue/action-perlcritic@2.1.0
-      #env:
-      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         args: --brutal ./cgi/*.pl ./*.pm
