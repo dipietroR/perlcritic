@@ -17,5 +17,5 @@ jobs:
       uses: Difegue/action-perlcritic@2.1.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#      with:
-#        args: cgi/*.pl scripts/*.pl lib/ProductOpener/*.pm lib/*.pl t/*.t
+      with:
+        args: ./cgi/*.pl scripts/*.pl lib/ProductOpener/*.pm lib/*.pl t/*.t
